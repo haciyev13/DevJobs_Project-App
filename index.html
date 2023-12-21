@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+          integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="./assets/css/style.css">
+     <title>DevJobs App</title>
+</head>
+
+<body>
+     <header>
+          <div class="container">
+               <div class="header__content">
+                    <img class="img-1" src="./assets/img/Triangle Copy 2.png" alt="Image">
+                    <img class="img-2" src="./assets/img/Triangle Copy.png" alt="Image">
+                    <img class="img-3" src="./assets/img/Triangle.png" alt="Image">
+
+                    <div class="header__content-logo">
+                         <img src="./assets/img/devjobs.png" alt="Images">
+                    </div>
+                    <div class="header__content-theme">
+                         <label for="theme">
+                              <i class="fas fa-sun"></i>
+                         </label>
+                         <label class="switch">
+                              <input id="theme" type="checkbox" />
+                              <span class="slider round"></span>
+                         </label>
+                         <label for="theme">
+                              <i class="fa-solid fa-moon"></i>
+                         </label>
+                    </div>
+                    
+               </div>
+
+               <div class="header__form container">
+
+                    <div class="responsiv-form">
+                         <input type="text" placeholder="Filter by title…">
+                         <i class="fa-solid fa-filter"></i>
+                         <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+
+                    <form action="" id="form">
+                         <label for="">
+                              <i class="fa-solid fa-magnifying-glass"></i>
+                              <input class="input-title" type="text"
+                                   placeholder="Filter by title, companies, expertise…">
+                         </label>
+
+                         <label for="">
+                              <i class="fa-solid fa-location-dot"></i>
+                              <input class="input-location" type="text" placeholder="Filter by location…">
+                         </label>
+
+                         <div class="form__btn">
+                              <div class="form__btn-title">
+                                   <input class="input-checkbox" type="checkbox">
+                                   <span>Full Time Only</span>
+                              </div>
+                              <div class="form__button">
+                                   <button>Search</button>
+                              </div>
+                         </div>
+                    </form>
+               </div>
+          </div>
+     </header>
+
+     <main>
+          <div class="container">
+               <div class="main__content">
+                    <!-- <div class="main__content-card">
+                         <div class="main__card-img">
+                              <img src="./assets/img/Group 3.png" alt="">
+                         </div>
+                         <div class="main__card-info-title">
+                              <p>5h ago .</p>
+                              <p>Full Time</p>
+                         </div>
+                         <div class="main__card-info-main">
+                              <a href="">Senior Software Engineer</a>
+                              <p>Scoot</p>
+                         </div>
+                         <div class="main__card-info-footer">
+                              <a href="#">United Kingdom</a>
+                         </div>
+                    </div> -->
+               </div>
+               <div class="footer-btn">
+                    <a class="anchor" href="/add.html">Add Data</a>
+               </div>
+          </div>
+     </main>
+
+     <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
