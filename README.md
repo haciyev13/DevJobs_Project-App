@@ -9,9 +9,9 @@
 2. Open the project directory.
 3. Open the `index.html` file in a web browser.
 
-#### https://splendid-profiterole-08c5af.netlify.app/
+## 🌎 Live Preview
 
-
+[https://api-exchange.netlify.app/](https://splendid-profiterole-08c5af.netlify.app/)
 
 ## Contributing
 
