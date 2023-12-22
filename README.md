@@ -12,3 +12,11 @@
 #### https://splendid-profiterole-08c5af.netlify.app/
 
 
+
+## Contributing
+
+Contributions are welcome! If you find any issues or want to add new features, please submit a pull request.
+
+## Author
+
+Ehed Haciyev & DevJobs_Project
